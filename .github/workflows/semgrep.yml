@@ -15,7 +15,7 @@ on:
   # Scan mainline branches and report all findings:  
   # Ensure you have the correct branch/es for your project
   push:
-    branches: ["master", "main", "test","dev"]
+    branches: ["master", "main", "test", "dev", "Dev_Semgrep"]
   # Schedule the CI job (this method uses cron syntax): 
   #schedule:
     #- cron: '0 0 1 * *' # Sets Semgrep to scan on the 1st of every month at 12:00 AM UTC.
