@@ -12,15 +12,9 @@ on:
   pull_request: {}
   # Scan on-demand through GitHub Actions interface:
   workflow_dispatch: {}
-  # Scan mainline branches and report all findings:  
-  # Ensure you have the correct branch/es for your project
   push:
     branches: ["master", "main", "test","dev"]
-  # Schedule the CI job (this method uses cron syntax): 
-  #schedule:
-    #- cron: '0 0 1 * *' # Sets Semgrep to scan on the 1st of every month at 12:00 AM UTC.
-    # It is recommended to change the schedule to a random time.
- 
+
 jobs:
   semgrep:
     name: SAST Scan
