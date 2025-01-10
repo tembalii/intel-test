@@ -19,7 +19,7 @@ on:
   # Schedule the CI job (this method uses cron syntax): 
   #schedule:
     #- cron: '0 0 1 * *' # Sets Semgrep to scan on the 1st of every month at 12:00 AM UTC.
-    # It is recommended to change the schedule to a random time.
+    # It is recommended to change the schedule to a random time
  
 jobs:
   semgrep:
