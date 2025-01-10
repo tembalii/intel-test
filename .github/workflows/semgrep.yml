@@ -34,7 +34,6 @@ jobs:
     runs-on: ubuntu-latest
  
     # intel-sandbox
-    # runs-on: sandbox.prod.amr.dind
  
     container:
       # A Docker image with Semgrep installed. Do not change this.
