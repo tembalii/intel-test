@@ -19,6 +19,7 @@ jobs:
   semgrep:
     name: SAST Scan
     container:
+      runs-on: ubuntu-latest
       # A Docker image with Semgrep installed. Do not change this.
       image: semgrep/semgrep
  
